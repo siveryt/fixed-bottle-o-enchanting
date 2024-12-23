@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "de.sivery.fixedbottleoenchanting.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BottleExperienceMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
