@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"de.sivery.fixedbottleoenchanting.FixedBottleOEnchanting"
-		],
-		"client": [
-			"de.sivery.fixedbottleoenchanting.FixedBottleOEnchantingClient"
 		]
 	},
 	"mixins": [
