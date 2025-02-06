@@ -3,9 +3,9 @@
 	"id": "fixed-bottle-o-enchanting",
 	"version": "${version}",
 	"name": "Fixed Bottle o' Enchanting",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Making Bottles o Enchanting configurable",
 	"authors": [
-		"Me!"
+		"Sivery"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,11 +20,7 @@
 		]
 	},
 	"mixins": [
-		"fixed-bottle-o-enchanting.mixins.json",
-		{
-			"config": "fixed-bottle-o-enchanting.client.mixins.json",
-			"environment": "client"
-		}
+		"fixed-bottle-o-enchanting.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
