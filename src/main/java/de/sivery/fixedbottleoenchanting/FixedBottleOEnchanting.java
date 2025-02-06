@@ -13,6 +13,8 @@ public class FixedBottleOEnchanting implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Loaded Fixed Bottle o' Enchanting");
+
+		ConfigManager.load();
 	}
 
 }
